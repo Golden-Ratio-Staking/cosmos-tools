@@ -71,7 +71,7 @@ git clone https://github.com/nullmames/cosmos-tools.git
 cd cosmos-tools/tmkms
 
 chmod 700 install_tmkms.sh
-chmod 700 isntall_tmkms_service.sh
+chmod 700 install_tmkms_service.sh
 ```
 
 Copy your `priv_validator_key.json` to `$HOME/cosmos-tools/tmkms/`. **Note** that the script will delete this file after usage, so **be sure it it backed up elsewhere**.
